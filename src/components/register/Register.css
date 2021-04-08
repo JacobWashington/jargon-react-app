@@ -1,0 +1,44 @@
+.register-form {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 0.5em;
+  position: relative;
+  top: 5vh;
+  text-align: center;
+}
+
+.shadow {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.form-group {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.error {
+  transition: background-color 0.9s ease-in;
+}
+
+input.error {
+  background-color: #F8D7DA;
+}
+
+@media only screen and (min-width: 600px) {
+  .register-form {
+    width: 45vw;
+  }
+
+  .form-group {
+    width: 40vw;
+  }
+
+  .form-control:hover {
+    border: solid lightblue;
+  }
+}

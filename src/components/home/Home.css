@@ -1,0 +1,31 @@
+.landing-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+
+.landing-welcome {
+  text-align: center;
+  margin-top: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2vw;
+}
+
+.welcome-brand {
+  color: #0099cd;
+}
+
+@media only screen and (min-width: 600px) {
+  .landing-img {
+    width: 35vw;
+  }
+
+  .home-container {
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}

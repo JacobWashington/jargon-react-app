@@ -1,0 +1,12 @@
+Nav.Link:hover {
+    color: white
+}
+
+.logo:hover {
+    color: yellow
+}
+
+.drop-item {
+    color: black;
+    text-decoration: none;
+}

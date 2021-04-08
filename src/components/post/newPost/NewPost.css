@@ -1,0 +1,30 @@
+.newpost-container {
+  width: 90vw;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.shadow {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: #abd26a;
+}
+
+.submit:hover {
+  transition: background-color 0.6s ease-in;
+  background-color: #8ac650;
+}
+
+@media only screen and (min-width: 600px) {
+  .newpost-container {
+    width: 45vw;
+  }
+}

@@ -1,0 +1,31 @@
+.form-container {
+    text-align: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: solid rgb(187, 187, 187);
+}
+
+input {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+input:hover {
+    border: solid #a4d4ff;
+}
+
+label {
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+}
+
+button {
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
